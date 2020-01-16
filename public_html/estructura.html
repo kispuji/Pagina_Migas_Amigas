@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Estructura</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            table{
+                border: solid;
+                margin: auto;
+                width: 100%;
+                font-weight: bold;
+                font-size: 20px;
+            }
+            tr{
+                border: solid;
+                width: 100%;    
+            }
+            td{
+                border: solid;
+                text-align: center;
+
+            }
+            #cabezera{
+                height: 150px;
+            }
+            #navegacion{
+                height: 70px;
+            }
+            #navegacion td{
+                width: 20%;
+            }
+            #contenido{
+                height: 400px;
+            }
+            #pie{
+                height: 35px;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr id="cabezera">
+                <td>1.- Logo</td>
+                <td colspan="3">2.- Titulo</td>
+                <td>3.- Idiomas</td>
+            </tr>
+            <tr id="navegacion">
+                <td>4.1- Inicio</td>
+                <td>4.2- Panadería</td>
+                <td>4.3- Bollería/Pasteleria</td>
+                <td>4.4- Empanadas</td>
+                <td>4.5- Contacto</td>
+            </tr>
+            <tr id="contenido">
+                <td>5.1.- Margen izquierdo</td>
+                <td colspan="3">6.- Contenido</td>
+                <td>5.2.- Margen derecho</td>
+            </tr>
+            <tr id="pie">
+                <td colspan="5">7.-Pie de página</td>
+            </tr>
+        </table>
+    </body>
+</html>
